@@ -1,0 +1,40 @@
+{
+  "schema": {
+    "fields": [
+      {
+        "name": "index",
+        "type": "integer"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      }
+    ],
+    "primaryKey": [
+      "index"
+    ],
+    "pandas_version": "0.20.0"
+  },
+  "data": [
+    {
+      "index": 0,
+      "title": "McDonalds"
+    },
+    {
+      "index": 1,
+      "title": "Trump asked whether the DOJ and FCC could investigate 'SNL' after it mocked him, report says"
+    },
+    {
+      "index": 2,
+      "title": "For Your Safety"
+    },
+    {
+      "index": 3,
+      "title": "A coronavirus outbreak hit a Florida government building. Two people are dead but a vaccinated employee wasn't infected"
+    },
+    {
+      "index": 4,
+      "title": "BP is planning to drill for fossil gas on edge of world\u2019s largest cold-water coral reef"
+    }
+  ]
+}

@@ -12,4 +12,4 @@ json_data = data.json()
 result = json_data['data']
 print(result)
 df = pd.DataFrame(result)
-df.to_excel('postcode_key_status.xlsx', index=False)
+df.to_excel('postcode_key_status.xlsx',sheet_name='postcode_key_status', index=False)

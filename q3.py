@@ -19,4 +19,4 @@ vote_counts = data_obj['last_result']['vote_counts']
 
 result = {**first_three_data, **constituency, **constituency_code, **event_name, **vote_counts, }
 df = pd.DataFrame([result])
-df.to_excel('politics.xlsx', index=False)
+df.to_excel('politics.xlsx', sheet_name='politics',index=False)

@@ -33,7 +33,7 @@ df2 = pd.DataFrame(properties)
 # df['address'] = pd.Series(address_arr)
 # df['band'] = pd.Series(band_arr)
 concate_dfs = pd.concat([df, df2], ignore_index=False, axis=1)
-concate_dfs.to_excel('council_tax.xlsx', index=False)
+concate_dfs.to_excel('council_tax.xlsx',sheet_name='council_tax', index=False)
 
 # print(df)
 

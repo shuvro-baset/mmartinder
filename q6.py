@@ -26,6 +26,6 @@ df2 = pd.DataFrame(result)
 
 concate_dfs = pd.concat([df, df2], ignore_index=False, axis=1)
 
-concate_dfs.to_excel('rental_valuation.xlsx', index=False)
+concate_dfs.to_excel('rental_valuation.xlsx', sheet_name='rental_valuation',index=False)
 
 # print(json_data)
